@@ -1,0 +1,31 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    /* Alineación horizontal en el centro */
+    align-items: center;
+    /* Alineación vertical en el centro */
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 50%;
+  }
+  
+  #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Battle Way</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Battle Way</h1>
+    <nav>
+      <a href="{% url 'inicio' %}">Inicio</a>
+      <a href="{% url 'acerca' %}">Acerca</a>
+      <a href="{% url 'productos' %}">Productos</a>
+    </nav>
+  </header>
+
+  {% block contenido %}
+  {% endblock %}
+
+</body>
+</html>
